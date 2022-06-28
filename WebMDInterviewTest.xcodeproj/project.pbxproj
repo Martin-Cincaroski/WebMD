@@ -14,6 +14,7 @@
 		5828634A2866208200DE3F21 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582863482866208200DE3F21 /* LoadingCell.swift */; };
 		5828634B2866208200DE3F21 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582863492866208200DE3F21 /* LoadingCell.xib */; };
 		5828635028662B5B00DE3F21 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5828634F28662B5B00DE3F21 /* Alamofire */; };
+		587E115B286BA48500FB9D2D /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E115A286BA48500FB9D2D /* DataLoader.swift */; };
 		F212351225BF56F10003048F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F212351125BF56F10003048F /* README.md */; };
 		F218566C25BD6A1300FD50E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218566B25BD6A1300FD50E4 /* AppDelegate.swift */; };
 		F218567025BD6A1300FD50E4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218566F25BD6A1300FD50E4 /* FeedViewController.swift */; };
@@ -45,6 +46,7 @@
 		58286343286617EB00DE3F21 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		582863482866208200DE3F21 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		582863492866208200DE3F21 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		587E115A286BA48500FB9D2D /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		F212351125BF56F10003048F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F218566825BD6A1300FD50E4 /* WebMDInterviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebMDInterviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F218566B25BD6A1300FD50E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				F218568B25BD6CE900FD50E4 /* FeedResponse.swift */,
 				F218568E25BD6CF700FD50E4 /* FeedItem.swift */,
+				587E115A286BA48500FB9D2D /* DataLoader.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587E115B286BA48500FB9D2D /* DataLoader.swift in Sources */,
 				F218568F25BD6CF700FD50E4 /* FeedItem.swift in Sources */,
 				5828633D28660DA500DE3F21 /* Extensions.swift in Sources */,
 				F218567025BD6A1300FD50E4 /* FeedViewController.swift in Sources */,
